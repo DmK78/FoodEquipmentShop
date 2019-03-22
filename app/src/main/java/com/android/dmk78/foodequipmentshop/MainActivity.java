@@ -1,12 +1,12 @@
 package com.android.dmk78.foodequipmentshop;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private ListView listViewEquipment;
@@ -23,7 +23,15 @@ public class MainActivity extends AppCompatActivity {
         listViewEquipment.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(getApplicationContext(),"Position: "+position,Toast.LENGTH_LONG).show();
+                switch (position){
+                    case 0:
+                        Intent intent = new Intent(getApplicationContext(), ApparatdlyaPopcorn.class);
+                        startActivity(intent);
+                        break;
+
+
+                        default:break;
+                }
             }
         });
 

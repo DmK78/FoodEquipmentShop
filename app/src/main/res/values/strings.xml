@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Food Equipment Shop</string>
     <string name="logo_description">Магазин пищевого оборудования</string>
+    <string name="logo_popcorn">Логотип аппарата для попкорна</string>
 
 
     <string-array name="equipment">
@@ -11,8 +12,13 @@
         <item>Витрина тепловая</item>
         <item>Гриль для кур</item>
         <item>Гриль роликовый</item>
-
-
-
     </string-array>
+
+    <string name="airhot_pop6_title">Аппарат для попкорна Airhot POP-6</string>
+    <string name="hkn_pcorn_title">Аппарат для попкорна Hurakan HKN-PCORN</string>
+    <string name="hkn_pcorn2_title">Аппарат для попкорна Hurakan HKN-PCORN2</string>
+
+    <string name="airhot_pop6_info">Данный аппарат для попкорна сочетает в себе все преимущества аппаратов для попкорна. Аппарат безопасен в эксплуатации и экономичен по расходу энергии, подходит для ресторанов, закусочных</string>
+    <string name="hkn_pcorn_info">Аппарат Hurakan HKN-PCORN предназначен для приготовления поп-корна в уличных кафе и детских развлекательных центрах. Корпус аппарата выполнен из алюминия, оснащен панорамным стеклом</string>
+    <string name="hkn_pcorn2_info">Аппарат для попкорна Hurakan подходит для оснащения кинотеатров, торгово-развлекательных комплексов, уличных точек и предприятий быстрого питания.</string>
 </resources>
