@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Food Equipment Shop</string>
+    <string name="logo_description">Магазин пищевого оборудования</string>
+
+
+    <string-array name="equipment">
+        <item>Аппарат для попкорна</item>
+        <item>Аппарат для сахарной ваты</item>
+        <item>Блинница</item>
+        <item>Вафельница</item>
+        <item>Витрина тепловая</item>
+        <item>Гриль для кур</item>
+        <item>Гриль роликовый</item>
+
+
+
+    </string-array>
+</resources>
